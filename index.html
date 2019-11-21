@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Audio Player</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: url("stary night.jpg");
+        }
+
+        h1 {
+            height: 165px;
+            width: 374px;
+            color: white;
+            font-family: "Euphemia UCAS";
+            text-align: left;
+        }
+
+        h2 {
+            height: 20px;
+            width: 366px;
+            color: white;
+            font-family: "Euphemia UCAS";
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 50px;
+
+        }
+
+        p {
+            height: 20px;
+            width: 366px;
+            color: #8A8A8A;
+            font-family: "Euphemia UCAS";
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 25px;
+        }
+
+        #fixed{
+            position:fixed;
+            bottom:0px;
+            right:0px;
+        }
+
+        #playlist{
+            list-style: none;
+        }
+
+        #playlist li a{
+            color:white;
+            text-decoration: none;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Starry Night (1889) Vincent Van Gogh</h1>
+
+<div style="bottom:0px, right:0px">
+    <audio src="" controls id="audioPlayer">
+    </audio>
+</div>
+    
+    <ul id="playlist">
+        <li class="current-song"><a href="12 Hometown Glory.mp3"><h2>Hometown Glory</h2><p>Adele  19</p>
+        </a></li>
+       
+        <li><a href="12 On Our Own.mp3"><h2>On Our Own</h2><p>Bruno Major  A Song for Every Moon</p>
+        </a></li>
+
+        <li><a href="12 The Thrill Of It All.mp3"><h2>The Thrill Of It All</h2><p>Sam Smith  The Thrill Of It All</p></a></li>
+
+        <li><a href="13 Glowing Eyes.mp3"><h2>Glowing Eyes</h2><p>Twenty One Pilots  Vessel</p>
+        </a></li>
+
+        <li><a href="A Sky Full of Stars.mp3"><h2>A Sky Full of Stars</h2><p>Coldplay  Ghost Stories</p>
+        </a></li>
+
+         <li><a href="Amazing Day.mp3"><h2>Amazing Day</h2><p>Coldplay  A Head Full of Dreams</p>
+         </a></li>
+
+         <li><a href="Yellow.mp3"><h2>Yellow</h2><p>Coldplay  Parachutes</p>
+         </a></li>
+
+    </ul>
+   
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    
+    <script src="audioPlayer.js"></script>
+
+
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>
