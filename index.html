@@ -4,17 +4,12 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
-        body {
-            background-color: black;
-            
-			background-image:url("stary night.png");
-			background-repeat:no-repeat;
-			background-size:cover;
-        }
+
 
         h1 {
-            height: 60px;
+            
             width: 374px;
 			
 			padding-top: 20px;
@@ -75,6 +70,8 @@
     </style>
 </head>
 <body>
+	<section>
+
     <h1>Starry Night (1889) Vincent Van Gogh</h1>
 
 <div class= "fixed">
@@ -104,6 +101,18 @@
          </a></li>
 
     </ul>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" 
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(window).scroll(function(){
+    		var scroll_position = $(window).scrollTop();
+    		$('section').css({
+    			'background-position-x' : - scroll_position + 'px',
+    	})
+    })
+    </script>
    
     <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
     
@@ -114,5 +123,6 @@
         // loads the audio player
         audioPlayer();
     </script>
+    </section>
 </body>
 </html>
