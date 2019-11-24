@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+}
+
+section
+{
+	background: url("stary night.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: relative;
+	width:1000px;
+	height:1350px;
+}
