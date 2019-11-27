@@ -18,13 +18,28 @@ section
 	background-size:cover;
 	position: relative;
 
-top: 0px;
-right: auto;
-
-background-size: cover;
 background-position: center;
 
 	width:1000px;
 	height:1150px;
+}
+
+audio {
+	left: 0px;
+ width: 350px;
+ height: 300px;
+}​
+
+button {
+  background-color: #b3b3cc;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1px;
+  border-radius: 50%;
+  bottom: 30px;
 }
 
