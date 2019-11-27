@@ -36,6 +36,7 @@ section{
   font-size: 1px;
   border-radius: 50%;
   bottom: 30px;
+  cursor: pointer;
     }
 
 img{
@@ -43,9 +44,10 @@ img{
 	width:400px;
 	height:400px; 
 	padding-top: 100px;
-	padding-left: 85px;
+	padding-left: 20px;
 
 }
+
 
 h1 {
             height: 40px;
