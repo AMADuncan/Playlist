@@ -54,11 +54,11 @@ h1 {
             width: 300px;
 			
 			padding-top: 40px;
-			padding-left: 90px;
+			padding-left: 60px;
 			padding-bottom: 5px;
 			
             line-height: 45px;
-			font-size: 25pt;
+			      font-size: 25pt;
             color: white;
             font-family: "Euphemia UCAS";
             text-align: left;
@@ -69,7 +69,7 @@ p{
 			
 			padding-top: 5px;
 			padding-bottom: 5px;
-			padding-left: 80px;
+			padding-left: 60px;
 
             font-size: 12pt;
             color: #D0D0D0;
